@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FourWheeler.h"
+#import "TwoWheeler.h"
 
 @implementation AppDelegate
 
@@ -18,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    FourWheeler * fw = [[FourWheeler alloc] initFourWheeler:@"BMW" :@"X1" :5];
+    TwoWheeler * tw = [[TwoWheeler alloc] initTwoWheeler:@"Hero Hond" :@"Passion" :true];
+    
+    [fw showFourWheelerValues];
+    [tw showTwoWheelerValues];
+    
+    
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

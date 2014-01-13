@@ -16,6 +16,9 @@
 		A3CDE65016B2A37C00F2AB5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CDE64F16B2A37C00F2AB5E /* Default.png */; };
 		A3CDE65216B2A37C00F2AB5E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CDE65116B2A37C00F2AB5E /* Default@2x.png */; };
 		A3CDE65416B2A37C00F2AB5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CDE65316B2A37C00F2AB5E /* Default-568h@2x.png */; };
+		A3CDE65C16B2A3BE00F2AB5E /* Moter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CDE65B16B2A3BE00F2AB5E /* Moter.m */; };
+		A3CDE65F16B2A61B00F2AB5E /* TwoWheeler.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CDE65E16B2A61B00F2AB5E /* TwoWheeler.m */; };
+		A3CDE66216B2AA6A00F2AB5E /* FourWheeler.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CDE66116B2AA6A00F2AB5E /* FourWheeler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		A3CDE64F16B2A37C00F2AB5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A3CDE65116B2A37C00F2AB5E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A3CDE65316B2A37C00F2AB5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3CDE65A16B2A3BE00F2AB5E /* Moter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moter.h; sourceTree = "<group>"; };
+		A3CDE65B16B2A3BE00F2AB5E /* Moter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moter.m; sourceTree = "<group>"; };
+		A3CDE65D16B2A61B00F2AB5E /* TwoWheeler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoWheeler.h; sourceTree = "<group>"; };
+		A3CDE65E16B2A61B00F2AB5E /* TwoWheeler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoWheeler.m; sourceTree = "<group>"; };
+		A3CDE66016B2AA6A00F2AB5E /* FourWheeler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourWheeler.h; sourceTree = "<group>"; };
+		A3CDE66116B2AA6A00F2AB5E /* FourWheeler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourWheeler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,12 @@
 		A3CDE62E16B2A37C00F2AB5E = {
 			isa = PBXGroup;
 			children = (
+				A3CDE66016B2AA6A00F2AB5E /* FourWheeler.h */,
+				A3CDE66116B2AA6A00F2AB5E /* FourWheeler.m */,
+				A3CDE65D16B2A61B00F2AB5E /* TwoWheeler.h */,
+				A3CDE65E16B2A61B00F2AB5E /* TwoWheeler.m */,
+				A3CDE65A16B2A3BE00F2AB5E /* Moter.h */,
+				A3CDE65B16B2A3BE00F2AB5E /* Moter.m */,
 				A3CDE64316B2A37C00F2AB5E /* AutoMobile */,
 				A3CDE63C16B2A37C00F2AB5E /* Frameworks */,
 				A3CDE63A16B2A37C00F2AB5E /* Products */,
@@ -166,6 +181,9 @@
 			files = (
 				A3CDE64A16B2A37C00F2AB5E /* main.m in Sources */,
 				A3CDE64E16B2A37C00F2AB5E /* AppDelegate.m in Sources */,
+				A3CDE65C16B2A3BE00F2AB5E /* Moter.m in Sources */,
+				A3CDE65F16B2A61B00F2AB5E /* TwoWheeler.m in Sources */,
+				A3CDE66216B2AA6A00F2AB5E /* FourWheeler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
