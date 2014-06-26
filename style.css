@@ -1,0 +1,9 @@
+﻿.main-div{ width:100%;}
+.main-div ul{ width:100%; padding:0px; margin:0px;}
+.main-div ul li{ width:100%; list-style-type:decimal-leading-zero;  padding-top:6px;list-style-position:inside;font-size:50px;}
+.main-div p{ width:100%;border-bottom:1px solid #dcdcdc; padding-bottom:12px;font-size:50px;}
+.main-div h4{font-size:50px;}
+.disk{ width:100%;}
+.disk p{ width:100%;font-size:50px;}
+.disk ul{ width:100%; padding:0px; margin:0px;}
+.disk ul li{ width:100%; padding-top:6px; list-style-type:disc; list-style-position:inside;font-size:50px;}

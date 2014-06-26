@@ -1,0 +1,7 @@
+﻿.main-div{ width:100%;}
+.main-div ul{ width:100%; padding:0px; margin:0px;}
+.main-div ul li{ width:100%; list-style-type:decimal-leading-zero;  padding-top:6px;list-style-position:inside;}
+.main-div p{ width:100%;border-bottom:1px solid #dcdcdc; padding-bottom:12px;}
+.disk{ width:100%;}
+.disk ul{ width:100%; padding:0px; margin:0px;}
+.disk ul li{ width:100%; padding-top:6px; list-style-type:disc; list-style-position:inside;}
